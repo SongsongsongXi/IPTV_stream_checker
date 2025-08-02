@@ -11,7 +11,7 @@
 - 启动中文GUI界面
 
 ## 支持格式
-### M3U格式
+### M3U/M3U8格式
 ```
 #EXTM3U
 #EXTINF:-1 group-title="央视频道",CCTV1
@@ -19,10 +19,10 @@ http://example.com/cctv1.m3u8
 #EXTINF:-1 group-title="卫视频道",湖南卫视
 http://example.com/hunantv.m3u8
 ```
-### 简单URL列表（txt格式居多）
+### txt格式居多
 ```
-http://example.com/cctv1.m3u8
-http://example.com/hunantv.m3u8
+台名,http://example.com/cctv1.m3u8
+台名,http://example.com/hunantv.m3u8
 ```
 
 ## 导出格式
